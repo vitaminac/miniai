@@ -1,0 +1,14 @@
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.9
+  - conda
+  - numpy
+  - pandas
+  - matplotlib
+  - notebook
+  - pytorch
+  - torchvision
+  - tensorboard
+  - autopep8
