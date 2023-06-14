@@ -88,6 +88,9 @@ Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/)
 
 ### Tutorials
 
+- [x] [Kaggle: Intro to Machine Learning](https://www.kaggle.com/learn/intro-to-machine-learning)
+- [x] [Kaggle: Intermediate Machine Learning](https://www.kaggle.com/learn/intermediate-machine-learning)
+- [ ] [Kaggle: Feature Engineering](https://www.kaggle.com/learn/feature-engineering)
 - [ ] [Machine Learning Yearning](https://www.deeplearning.ai/machine-learning-yearning/)
 
 ### Courses
@@ -282,7 +285,8 @@ Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/)
 * [Transformers](https://github.com/huggingface/transformers)
 * [DeepSpeed](https://github.com/microsoft/DeepSpeed)
 * [Guidance](https://github.com/microsoft/guidance)
-* [PEFT](https://huggingface.co/docs/peft)
+* [PEFT](https://github.com/huggingface/peft)
+* [Trax](https://github.com/google/trax)
 * [AlpacaFarm](https://github.com/tatsu-lab/alpaca_farm)
 
 ### Tools
@@ -296,6 +300,7 @@ Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/)
 
 ## Papers
 
+* [Papers With Code](https://paperswithcode.com)
 * [深度学习论文精读](https://github.com/mli/paper-reading)
 * [Google Scholar](https://scholar.google.com/)
 * [Sci-Hub Proxy](https://sci-hub.ee/)
@@ -326,22 +331,17 @@ Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/)
 * Conference on Neural Information Processing Systems (NeurIPS)
 * Computer Vision and Pattern Recognition Conference (CVPR)
 
-## Dataset
+## Datasets
 
+* [Kaggle: Datasets](https://www.kaggle.com/datasets)
+* [Papers With Code: Datasets](https://paperswithcode.com/datasets)
 * [Google Dataset Search](https://datasetsearch.research.google.com/)
-* [Google Research Dataset](https://research.google/tools/datasets/)
-* [Roboflow](https://roboflow.com/)
-* [超神经: 数据集](https://hyper.ai/datasets)
+* [Hugging Face: Datasets](https://huggingface.co/datasets)
 
-## Open Source Model
+## Open Source Models
 
+* [Kaggle: Models](https://www.kaggle.com/models)
+* [Hugging Face: Models](https://huggingface.co/models)
 * [Pytorch Hub](https://pytorch.org/hub/)
-* [Tensorflow Hub](https://www.tensorflow.org/hub)
+* [Tensorflow Hub](https://tfhub.dev/)
 * [TensorFlow Model Garden](https://github.com/tensorflow/models)
-* [Tensor2Tensor](https://github.com/tensorflow/tensor2tensor)
-
-## Community
-
-* [Hugging Face](https://huggingface.co/)
-* [Kaggle](https://www.kaggle.com/)
-* [Papers With Code](https://paperswithcode.com/)
