@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "ms-python.python",
+    "ms-toolsai.jupyter",
+    "eamodio.gitlens",
+    "VisualStudioExptTeam.vscodeintellicode",
+    "DanielSanMedium.dscodegpt",
+    "TabNine.tabnine-vscode"
+  ]
+}

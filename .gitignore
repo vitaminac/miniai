@@ -1,0 +1,11 @@
+# Python
+data
+*.lof
+*.lot
+*.ist
+
+env/**/*
+/**/__pycache__/*
+.ipynb_checkpoints
+*.pyc
+runs
