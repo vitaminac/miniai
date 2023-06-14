@@ -1,17 +1,15 @@
 import random
-import time
 import numpy as np
 import matplotlib.pyplot as plt
 import torch
+from torch.utils.tensorboard import SummaryWriter
+
 
 def ensure_reproducity():
     random.seed(0)
     np.random.seed(0)
     torch.manual_seed(0)
     torch.use_deterministic_algorithms(True)
-
-def sigmoid(x):
-    return 1 / (1 + np.exp(-x))
 
 
 def _show_data(X, Y):
@@ -50,7 +48,8 @@ def show_decision_boundary(X, Y, h):
     Mesh_Y = Mesh_Y[:, 0] / np.sum(Mesh_Y, axis=1)
     Mesh_Y = Mesh_Y.reshape(X1.shape)
     ax.contour(X1, X2, Mesh_Y, levels=[0.5], linewidths=1, colors='black')
-    plt.savefig('./img/higham-decision-boundary.png', bbox_inches='tight', pad_inches=0)
+    plt.savefig('./img/higham-decision-boundary.png',
+                bbox_inches='tight', pad_inches=0)
     plt.show()
 
 
@@ -83,3 +82,22 @@ class Visualizer(object):
         self.train_losses.append(train_loss)
         if val_loss is not None:
             self.val_losses.append(val_loss)
+
+
+def collect_losses(it, f, parameters):
+    losses = []
+    for epoch in it:
+        losses.append(f(parameters).item())
+    return losses
+
+
+def collect_losses_and_log_to_tensorboard(it, model, parameters):
+    writer = SummaryWriter()
+    losses = []
+    for epoch in it:
+        loss = model.f(parameters)
+        losses.append(loss)
+        writer.add_scalar("Loss/train", loss, epoch)
+    writer.flush()
+    writer.close()
+    return losses

@@ -3,7 +3,8 @@ import matplotlib.pyplot as plt
 import torch
 from ..loss import Loss, MSELoss
 from .. import utils
-from .gd import GradientDescent
+from ..train import GradientDescentWithAutoGrad
+from ..train import BackpropagationWithAutoGrad
 
 
 def h(x, params):
@@ -17,37 +18,6 @@ def init_params():
     return {'w': w, 'b': b}
 
 
-class GradientDescentWithAutoGradient(GradientDescent):
-    def __init__(self, x, y, initial_parameters, loss: Loss, learning_rate: float):
-        super(GradientDescentWithAutoGradient, self).__init__(
-            x, y, initial_parameters, loss, learning_rate)
-
-    def forward(self):
-        return h(self.x, self.parameters)
-
-    def backward(self, loss):
-        # backward with autogradient
-        loss.backward()
-
-        # In PyTorch, every method that ends with an underscore (_) makes changes in-place,
-        # meaning, they will modify the underlying variable.
-        # We need to use NO_GRAD to keep the update out of the gradient computation
-        # Why is that? It boils down to the DYNAMIC GRAPH that PyTorch uses...
-        with torch.no_grad():
-            super(GradientDescentWithAutoGradient, self).backward(loss)
-
-        # If you check the method’s documentation,
-        # it clearly states that gradients are accumulated.
-        # So, every time we use the gradients to update the parameters,
-        # we need to zero the gradients afterwards.
-        # And that’s what zero_() is good for.
-        for param in self.parameters:
-            self.parameters[param].grad.zero_()
-
-    def grad(self):
-        return {"w": self.parameters["w"].grad, "b": self.parameters["b"].grad}
-
-
 def show_demo():
     utils.ensure_reproducity()
     # https://pytorch.org/tutorials/beginner/pytorch_with_examples.html
@@ -57,13 +27,19 @@ def show_demo():
     true_b = 769
     noise = 0.01 * torch.randn(m, dtype=torch.float)
     y = true_w * x + true_b + noise
+    loss = MSELoss()
 
+    def f(parameters):
+        return loss(y, h(x, parameters))
     plt.figure(figsize=(10, 5))
     for learning_rate in np.logspace(-2, 0, 10):
         parameters = init_params()
-        gd = GradientDescentWithAutoGradient(
-            x, y, parameters, MSELoss(), learning_rate)
-        plt.plot(gd.train(), label=str(learning_rate))
+
+        backprogation = BackpropagationWithAutoGrad(x, y, h, loss)
+        gd = GradientDescentWithAutoGrad(
+            backprogation, parameters, learning_rate)
+        losses = utils.collect_losses(gd.train(), f, parameters)
+        plt.plot(losses, label=str(learning_rate))
     plt.xlabel("iteration")
     plt.ylabel("cost")
     plt.yscale("log")

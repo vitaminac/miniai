@@ -1,6 +1,7 @@
 import numpy as np
+from .activation import sigmoid
 from .loss import MSELoss
-from .utils import sigmoid, show_data, show_costs, show_decision_boundary
+from .utils import show_data, show_costs, show_decision_boundary
 
 
 def activate(x, W, b):
