@@ -283,7 +283,9 @@ Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/)
 ### Libraries
 
 * [Hugging Face: Transformers](https://github.com/huggingface/transformers)
+* [xFormers](https://github.com/facebookresearch/xformers)
 * [TRL - Transformer Reinforcement Learning](https://github.com/lvwerra/trl)
+* [vLLM](https://github.com/vllm-project/vllm)
 * [DeepSpeed](https://github.com/microsoft/DeepSpeed)
 * [Guidance](https://github.com/microsoft/guidance)
 * [PEFT](https://github.com/huggingface/peft)
@@ -303,6 +305,10 @@ Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/)
 * [OpenLLaMA](https://github.com/openlm-research/open_llama)
 * [Lit-LLaMA](https://github.com/Lightning-AI/lit-llama)
 * [FinGPT](https://github.com/AI4Finance-Foundation/FinGPT)
+
+### Resources
+
+* [Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
 
 ## Papers
 
