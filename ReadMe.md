@@ -282,7 +282,8 @@ Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/)
 
 ### Libraries
 
-* [Transformers](https://github.com/huggingface/transformers)
+* [Hugging Face: Transformers](https://github.com/huggingface/transformers)
+* [TRL - Transformer Reinforcement Learning](https://github.com/lvwerra/trl)
 * [DeepSpeed](https://github.com/microsoft/DeepSpeed)
 * [Guidance](https://github.com/microsoft/guidance)
 * [PEFT](https://github.com/huggingface/peft)
@@ -292,11 +293,16 @@ Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/)
 ### Tools
 
 * [LangFlow](https://github.com/logspace-ai/langflow)
+* [EasyLM](https://github.com/young-geng/EasyLM/tree/main)
 
 ### Projects
 
+* [llama.cpp](https://github.com/ggerganov/llama.cpp)
 * [nanoGPT](https://github.com/karpathy/nanoGPT)
 * [miniGPT](https://github.com/karpathy/minGPT)
+* [OpenLLaMA](https://github.com/openlm-research/open_llama)
+* [Lit-LLaMA](https://github.com/Lightning-AI/lit-llama)
+* [FinGPT](https://github.com/AI4Finance-Foundation/FinGPT)
 
 ## Papers
 
