@@ -114,6 +114,7 @@ Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/)
 
 * [Google Colab](https://colab.research.google.com/)
 * [AutoGluon](https://github.com/awslabs/autogluon)
+* [Streamlit](https://github.com/streamlit/streamlit)
 
 ### Libraries
 
@@ -173,6 +174,7 @@ Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/)
 * [TensorFlow](https://github.com/tensorflow/tensorflow)
 * [Caffe](https://github.com/BVLC/caffe)
 * [Caffe2](https://github.com/pytorch/pytorch/tree/main/caffe2)
+* [tinygrad](https://github.com/geohot/tinygrad)
 * [Apache MXNet](https://github.com/apache/incubator-mxnet)
 * [Deeplearning4j](https://github.com/eclipse/deeplearning4j)
 * [CNTK](https://github.com/microsoft/CNTK)
@@ -300,11 +302,13 @@ Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/)
 ### Projects
 
 * [llama.cpp](https://github.com/ggerganov/llama.cpp)
+* [ggml](https://github.com/ggerganov/ggml)
 * [nanoGPT](https://github.com/karpathy/nanoGPT)
 * [miniGPT](https://github.com/karpathy/minGPT)
 * [OpenLLaMA](https://github.com/openlm-research/open_llama)
 * [Lit-LLaMA](https://github.com/Lightning-AI/lit-llama)
 * [FinGPT](https://github.com/AI4Finance-Foundation/FinGPT)
+* [LaWGPT](https://github.com/pengxiao-song/LaWGPT)
 
 ### Resources
 
