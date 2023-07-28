@@ -161,7 +161,8 @@ Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/)
 
 ### Books
 
-* [Dive into Deep Learning](https://d2l.ai/)
+- [ ] [Deep Learning](https://www.deeplearningbook.org/)
+- [ ] [Dive into Deep Learning](https://d2l.ai/)
 
 ### Tools
 
