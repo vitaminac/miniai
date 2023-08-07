@@ -1,6 +1,7 @@
 import numpy as np
+
 from .activation import sigmoid
-from .loss import MSELoss
+from .criterion import MSE
 from .utils import show_data, show_costs, show_decision_boundary
 
 
@@ -12,7 +13,7 @@ def h(W2, W3, W4, b2, b3, b4, X):
     return activate(activate(activate(X, W2, b2), W3, b3), W4, b4)
 
 
-MSE_COST_FUNCTION = MSELoss()
+MSE_COST_FUNCTION = MSE()
 def cost(W2, W3, W4, b2, b3, b4, X, Y):
     return MSE_COST_FUNCTION(Y, h(W2, W3, W4, b2, b3, b4, X))
 

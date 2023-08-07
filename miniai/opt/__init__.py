@@ -6,3 +6,4 @@ from .momentum import GradientDescentWithMomentum
 from .adagrad import AdaGrad
 from .rmspro import RMSProp
 from .adam import Adam
+from .function import Function, DifferentiableFunction

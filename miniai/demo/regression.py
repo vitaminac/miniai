@@ -1,8 +1,9 @@
-import numpy as np
 import matplotlib.pyplot as plt
-from torch.utils.tensorboard import SummaryWriter
-from ..loss import Loss, MSELoss
+import numpy as np
+
 from .. import utils
+from ..criterion import MSE
+from ..opt import DifferentiableFunction
 from ..train import GradientDescent
 
 
@@ -10,20 +11,21 @@ def h(x, parameters):
     return parameters['w'] * x + parameters['b']
 
 
-class ModelWithManualGradient():
-    def __init__(self, x, y,  loss: Loss):
+class CostFunction(DifferentiableFunction):
+    def __init__(self, x, y):
+        super().__init__()
         self.x = x
         self.y = y
-        self.loss_function = loss
+        self.mse = MSE()
 
-    def f(self, parameters):
+    def __call__(self, parameters):
         y_hat = h(self.x, parameters)
-        return self.loss_function(self.y, y_hat)
+        return self.mse(self.y, y_hat)
 
-    def f_grad(self, parameters):
+    def grad(self, parameters):
         y_hat = h(self.x, parameters)
         # calculate the gradient
-        delta = self.loss_function.derivative(self.y, y_hat)
+        delta = self.mse.grad(self.y, y_hat)
         # calculate the gradient
         dw = (delta * self.x).mean()
         db = delta.mean()
@@ -45,9 +47,8 @@ def show_demo():
     noise = 0.01 * np.random.randn(m)
     y = true_w * x + true_b + noise
     parameters = init_params()
-    loss = MSELoss()
-    model = ModelWithManualGradient(x, y, loss)
-    gd = GradientDescent(model.f_grad, parameters, 1)
+    model = CostFunction(x, y)
+    gd = GradientDescent(model.grad, parameters, 1)
     losses = utils.collect_losses_and_log_to_tensorboard(
         gd.train(), model, parameters)
     plt.figure(figsize=(10, 5))

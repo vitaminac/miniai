@@ -60,7 +60,7 @@ class Visualizer(object):
         self.val_losses = []
 
     def plot(self):
-        plt.ion()       # Enable interactive mode
+        plt.ion()  # Enable interactive mode
         plt.clf()
         self.fig = plt.figure()  # Create figure
         # Add subplot (dont worry only one plot appears)
@@ -72,7 +72,7 @@ class Visualizer(object):
         if self.val_losses:
             self.val_cur, = plt.plot(
                 self.epochs, self.val_losses, 'o-', label='validation', markevery=[-1])
-        self.ax.relim()        # Recalculate limits
+        self.ax.relim()  # Recalculate limits
         self.ax.autoscale_view(True, True, True)  # Autoscale
         # draw and show it
         plt.show()
@@ -91,11 +91,11 @@ def collect_losses(it, f, parameters):
     return losses
 
 
-def collect_losses_and_log_to_tensorboard(it, model, parameters):
+def collect_losses_and_log_to_tensorboard(it, cost_function, parameters):
     writer = SummaryWriter()
     losses = []
     for epoch in it:
-        loss = model.f(parameters)
+        loss = cost_function(parameters)
         losses.append(loss)
         writer.add_scalar("Loss/train", loss, epoch)
     writer.flush()

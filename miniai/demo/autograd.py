@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import torch
-from ..loss import Loss, MSELoss
+from ..criterion import MSE
 from .. import utils
 from ..train import GradientDescentWithAutoGrad
 from ..train import BackpropagationWithAutoGrad
@@ -27,15 +27,16 @@ def show_demo():
     true_b = 769
     noise = 0.01 * torch.randn(m, dtype=torch.float)
     y = true_w * x + true_b + noise
-    loss = MSELoss()
+    mse = MSE()
 
     def f(parameters):
-        return loss(y, h(x, parameters))
+        return mse(y, h(x, parameters))
+
     plt.figure(figsize=(10, 5))
     for learning_rate in np.logspace(-2, 0, 10):
         parameters = init_params()
 
-        backprogation = BackpropagationWithAutoGrad(x, y, h, loss)
+        backprogation = BackpropagationWithAutoGrad(x, y, h, mse)
         gd = GradientDescentWithAutoGrad(
             backprogation, parameters, learning_rate)
         losses = utils.collect_losses(gd.train(), f, parameters)
