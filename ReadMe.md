@@ -57,12 +57,11 @@ Optimization Theory for Computer Science and Machine Learning](https://www.cis.u
 
 ### Books
 
-* [An Introduction to Statistical Learning with Applications in R](https://www.statlearning.com/)
-* [The Elements of
-Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/)
-* [统计学习方法](https://book.douban.com/subject/33437381/)
-* [The Nature of Statistical Learning Theory](https://www.springer.com/gp/book/9780387987804)
-* [Statistical Learning Theory](https://www.wiley.com/en-us/Statistical+Learning+Theory-p-9780471030034)
+- [ ] [An Introduction to Statistical Learning with Applications in R](https://www.statlearning.com/)
+- [ ] [The Elements of Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/)
+- [ ] [统计学习方法](https://book.douban.com/subject/33437381/)
+- [ ] [The Nature of Statistical Learning Theory](https://www.springer.com/gp/book/9780387987804)
+- [ ] [Statistical Learning Theory](https://www.wiley.com/en-us/Statistical+Learning+Theory-p-9780471030034)
 
 ### Tools
 
@@ -102,13 +101,14 @@ Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/)
 
 ### Books
 
-* [Pattern Recognition and Machine Learning](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/05/prml-errata-3rd-20110921.pdf)
-* [Machine Learning: A Probabilistic Perspective](https://probml.github.io/pml-book/)
-* [机器学习](https://book.douban.com/subject/26708119/)
-* [南瓜书PumpkinBook](https://datawhalechina.github.io/pumpkin-book)
-* [Probabilistic Graphical Models: Principles and Techniques](https://mitpress.mit.edu/books/probabilistic-graphical-models)
-* [Foundations of Machine Learning](https://mitpress.mit.edu/9780262039406/foundations-of-machine-learning/)
-* Probably Approximately Correct
+- [ ] Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems
+- [ ] [Pattern Recognition and Machine Learning](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/05/prml-errata-3rd-20110921.pdf)
+- [ ] [Machine Learning: A Probabilistic Perspective](https://probml.github.io/pml-book/)
+- [ ] [机器学习](https://book.douban.com/subject/26708119/)
+- [ ] [南瓜书PumpkinBook](https://datawhalechina.github.io/pumpkin-book)
+- [ ] [Probabilistic Graphical Models: Principles and Techniques](https://mitpress.mit.edu/books/probabilistic-graphical-models)
+- [ ] [Foundations of Machine Learning](https://mitpress.mit.edu/9780262039406/foundations-of-machine-learning/)
+- [ ] Probably Approximately Correct
 
 ### Tools
 
@@ -161,6 +161,7 @@ Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/)
 
 ### Books
 
+- [ ] Deep Learning with Python
 - [ ] [Deep Learning](https://www.deeplearningbook.org/)
 - [ ] [Dive into Deep Learning](https://d2l.ai/)
 
