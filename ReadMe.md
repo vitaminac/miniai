@@ -164,6 +164,7 @@ Optimization Theory for Computer Science and Machine Learning](https://www.cis.u
 - [ ] Deep Learning with Python
 - [ ] [Deep Learning](https://www.deeplearningbook.org/)
 - [ ] [Dive into Deep Learning](https://d2l.ai/)
+- [ ] [Understanding Deep Learning](https://udlbook.github.io/udlbook/)
 
 ### Tools
 
@@ -304,6 +305,7 @@ Optimization Theory for Computer Science and Machine Learning](https://www.cis.u
 ### Projects
 
 * [llama.cpp](https://github.com/ggerganov/llama.cpp)
+* [alpaca.cpp](https://github.com/antimatter15/alpaca.cpp)
 * [ggml](https://github.com/ggerganov/ggml)
 * [nanoGPT](https://github.com/karpathy/nanoGPT)
 * [miniGPT](https://github.com/karpathy/minGPT)
