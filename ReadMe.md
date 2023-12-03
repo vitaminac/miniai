@@ -2,20 +2,20 @@ All experiments, implementations and tests are performed in an environment that 
 
 We use PyTorch as the default library for data fetching, implementation of the optimization algorithms, neural network model creation, and their training and application. We also use libraries such as **NumPy** to illustrate some of the internal implementation details of **PyTorch**.
 
-## Roadmap
+# Roadmap
 
 * [CMU B.S. AI Curriculum](https://www.cs.cmu.edu/bs-in-artificial-intelligence/curriculum)
 
-## Mathematics
+# Mathematics
 
-### Books
+## Books
 
 * [Mathematics for Machine Learning](https://mml-book.github.io/)
 * [Algebra, Topology, Differential Calculus, and
 Optimization Theory for Computer Science and Machine Learning](https://www.cis.upenn.edu/~jean/gbooks/geomath.html)
 * [Linear Algebra and Optimization with Applications to Machine Learning](https://www.cis.upenn.edu/~jean/gbooks/linalg.html)
 
-### Tools
+## Tools
 
 * [Anaconda](https://www.anaconda.com/download)
 * [nbdev](https://github.com/fastai/nbdev)
@@ -24,27 +24,27 @@ Optimization Theory for Computer Science and Machine Learning](https://www.cis.u
 * [Octave](https://www.gnu.org/software/octave/index)
 * [WolframAlpha](https://www.wolframalpha.com/)
 
-### Libraries
+## Libraries
 
 * [NumPy](https://numpy.org/)
 * [latexify](https://github.com/google/latexify_py)
 
-## Numerical Optimization
+# Numerical Optimization
 
-### Books
+## Books
 
 * [Numerical Recipes](http://numerical.recipes/)
 * [Numerical Optimization](https://link.springer.com/book/10.1007/978-0-387-40065-5)
 * [Convex Optimization](https://web.stanford.edu/~boyd/cvxbook/)
 * Numerical Analysis
 
-### Tools
+## Tools
 
 * [NVIDIA CUDA](https://developer.nvidia.com/about-cuda)
 * [GAMS](https://www.gams.com/)
 * [IBM CPLEX](https://www.ibm.com/analytics/cplex-optimizer)
 
-### Libraries
+## Libraries
 
 * [SciPy](https://github.com/scipy/scipy)
 * [JAX](https://github.com/google/jax)
@@ -53,9 +53,9 @@ Optimization Theory for Computer Science and Machine Learning](https://www.cis.u
 * [Theano](https://github.com/Theano/Theano)
 * [MPI for Python](https://github.com/mpi4py/mpi4py)
 
-## Statistical Learning
+# Statistical Learning
 
-### Books
+## Books
 
 - [ ] [An Introduction to Statistical Learning with Applications in R](https://www.statlearning.com/)
 - [ ] [The Elements of Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/)
@@ -63,43 +63,43 @@ Optimization Theory for Computer Science and Machine Learning](https://www.cis.u
 - [ ] [The Nature of Statistical Learning Theory](https://www.springer.com/gp/book/9780387987804)
 - [ ] [Statistical Learning Theory](https://www.wiley.com/en-us/Statistical+Learning+Theory-p-9780471030034)
 
-### Tools
+## Tools
 
 * [RStudio](https://github.com/rstudio/rstudio)
 
-## Artificial Intelligence
+# Artificial Intelligence
 
-### Courses
+## Courses
 
 - [x] [Coursera: AI for Everyone](https://www.coursera.org/learn/ai-for-everyone)
 - [ ] [UC Berkeley CS188: Introduction to Artificial Intelligence](https://inst.eecs.berkeley.edu/~cs188)
 
-### Books
+## Books
 
 * [Artificial Intelligence: A Modern Approach](http://aima.cs.berkeley.edu/)
 
-### Methods
+## Methods
 
 * Fuzzy Logic
   * Fuzzy Set
 
-## Machine Learning
+# Machine Learning
 
-### Tutorials
+## Tutorials
 
 - [x] [Kaggle: Intro to Machine Learning](https://www.kaggle.com/learn/intro-to-machine-learning)
 - [x] [Kaggle: Intermediate Machine Learning](https://www.kaggle.com/learn/intermediate-machine-learning)
 - [ ] [Kaggle: Feature Engineering](https://www.kaggle.com/learn/feature-engineering)
 - [ ] [Machine Learning Yearning](https://www.deeplearning.ai/machine-learning-yearning/)
 
-### Courses
+## Courses
 
 - [ ] [Coursera: Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)
 - [ ] [Coursera: Machine Learning Engineering for Production (MLOps) Specialization](https://www.coursera.org/specializations/machine-learning-engineering-for-production-mlops)
 - [ ] [Stanford CS229: Machine Learning](https://cs229.stanford.edu/syllabus-fall2022.html)
 - [ ] [NTU by Hung-Yi Lee: Machine Learning](https://speech.ee.ntu.edu.tw/~hylee/ml/2021-spring.php)
 
-### Books
+## Books
 
 - [ ] Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems
 - [ ] [Pattern Recognition and Machine Learning](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/05/prml-errata-3rd-20110921.pdf)
@@ -110,22 +110,22 @@ Optimization Theory for Computer Science and Machine Learning](https://www.cis.u
 - [ ] [Foundations of Machine Learning](https://mitpress.mit.edu/9780262039406/foundations-of-machine-learning/)
 - [ ] Probably Approximately Correct
 
-### Tools
+## Tools
 
 * [Google Colab](https://colab.research.google.com/)
 * [AutoGluon](https://github.com/awslabs/autogluon)
 * [Streamlit](https://github.com/streamlit/streamlit)
 
-### Libraries
+## Libraries
 
 * [sk-learn](https://github.com/scikit-learn/scikit-learn)
 * [XGBoost](https://github.com/dmlc/xgboost)
 
-### Projects
+## Projects
 
 * [Machine Learning in NumPy](https://github.com/ddbourgin/numpy-ml)
 
-### Methods
+## Methods
 
 * Supervised Learning
   * K-Nearest Neighbors
@@ -143,14 +143,14 @@ Optimization Theory for Computer Science and Machine Learning](https://www.cis.u
 * Bayesian Network
 * Boltzmann Machine
 
-## Deep Learning
+# Deep Learning
 
-### Tutorials
+## Tutorials
 
 - [ ] [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com)
 - [ ] [UFLDL Tutorial](http://deeplearning.stanford.edu/tutorial/)
 
-### Courses
+## Courses
 
 - [x] [Coursera: Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning)
 - [ ] [Stanford CS230: Deep Learning](https://cs230.stanford.edu/lecture/)
@@ -159,18 +159,18 @@ Optimization Theory for Computer Science and Machine Learning](https://www.cis.u
 - [ ] [CMU 10-414/714: Deep Learning Systems: Algorithms and Implementation](https://dlsyscourse.org/)
 - [ ] [DeepMind x UCL: The Deep Learning Lecture](https://deepmind.com/learning-resources/deep-learning-lecture-series-2020)
 
-### Books
+## Books
 
 - [ ] Deep Learning with Python
 - [ ] [Deep Learning](https://www.deeplearningbook.org/)
 - [ ] [Dive into Deep Learning](https://d2l.ai/)
 - [ ] [Understanding Deep Learning](https://udlbook.github.io/udlbook/)
 
-### Tools
+## Tools
 
 * [PlotNeuralNet](https://github.com/HarisIqbal88/PlotNeuralNet)
 
-### Libraries
+## Libraries
 
 * [PyTorch](https://pytorch.org/)
 * [Keras](https://keras.io)
@@ -182,29 +182,29 @@ Optimization Theory for Computer Science and Machine Learning](https://www.cis.u
 * [Deeplearning4j](https://github.com/eclipse/deeplearning4j)
 * [CNTK](https://github.com/microsoft/CNTK)
 
-## Computer Vision
+# Computer Vision
 
-### Courses
+## Courses
 
 - [ ] [Stanford CS231n: Convolutional Neural Networks for Visual Recognition](https://cs231n.github.io/)
 
-### Books
+## Books
 
 * [Computer Vision: Algorithms and Applications](http://szeliski.org/Book/)
 * [Computer Vision:  Models, Learning, and Inference](http://www.computervisionmodels.com/)
 
-### Tools
+## Tools
 
 * [OpenCV](https://opencv.org/)
 * [Teachable Machine](https://teachablemachine.withgoogle.com/)
 
-### Libraries
+## Libraries
 
 * [scikit-image](https://scikit-image.org/)
 * [ImageAI](https://github.com/OlafenwaMoses/ImageAI)
 * [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose)
 
-### Projects
+## Projects
 
 * DeepNude
   * [Official DeepNude Algorithm](https://gitlab.com/vitaminac/deepnude)
@@ -218,74 +218,74 @@ Optimization Theory for Computer Science and Machine Learning](https://www.cis.u
 * [video2x](https://github.com/k4yt3x/video2x)
 * [PaintsChainer](https://github.com/pfnet/PaintsChainer)
 
-## Natual Language Processing
+# Natual Language Processing
 
-### Tutorials
+## Tutorials
 
 - [ ] [NLP Course | For You](https://lena-voita.github.io/nlp_course.html)
 
-### Courses
+## Courses
 
 - [ ] [Stanford CS224n: Natural Language Processing with Deep Learning](http://web.stanford.edu/class/cs224n/)
 - [ ] [Stanford CS224d: Deep Learning for Natural Language Processing](http://cs224d.stanford.edu/)
 
-### Books
+## Books
 
 * [Foundations of Statistical Natural Language Processing](https://nlp.stanford.edu/fsnlp/)
 * [Speech and Language Processing](https://home.cs.colorado.edu/~martin/slp.html)
 * [Introduction to Information Retrieval](https://nlp.stanford.edu/IR-book/)
 
-### Tools
+## Tools
 
 * [DeepSpeech](https://github.com/mozilla/DeepSpeech)
 
-### Libraries
+## Libraries
 
 * [spaCy](https://spacy.io/)
 * [texthero](https://github.com/jbesomi/texthero)
 * [metaseq](https://github.com/facebookresearch/metaseq)
 
-### Projects
+## Projects
 
 * [Natural Language Processing Tutorial for Deep Learning Researchers](https://github.com/graykode/nlp-tutorial)
 
-## Reinforcement Learning
+# Reinforcement Learning
 
-### Tutorials
+## Tutorials
 
 - [ ] [Spinning Up in Deep RL](https://spinningup.openai.com/en/latest/)
 
-### Courses
+## Courses
 
 - [ ] [UC Berkeley CS285/294 Deep Reinforcement Learning](http://rail.eecs.berkeley.edu/deeprlcourse/)
 - [ ] [DeepMind x UCL: Introduction to Reinforcement Learning with David Silver](https://deepmind.com/learning-resources/-introduction-reinforcement-learning-david-silver)
 - [ ] [Stanford CS234: Reinforcement Learning](http://web.stanford.edu/class/cs234/index.html)
 
-### Books
+## Books
 
 * [Reinforcement Learning: An Introduction](http://incompleteideas.net/book/the-book.html)
 * [蘑菇书EasyRL](https://datawhalechina.github.io/easy-rl)
 
-### Tools
+## Tools
 
 * [Gym](https://github.com/openai/gym)
 * [AirSim](https://github.com/microsoft/AirSim)
 
-### Methods
+## Methods
 
 * Evolutionary Algorithm
   * Genetic Algorithm
   * Neuroevolution
 
-## Large Language Models
+# Large Language Models
 
-### Courses
+## Courses
 
 - [x] [DeepLearning.AI: ChatGPT Prompt Engineering for Developers](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/)
 - [ ] [DeepLearning.AI: Building Systems with the ChatGPT API](https://www.deeplearning.ai/short-courses/building-systems-with-chatgpt/)
 - [ ] [DeepLearning.AI: LangChain for LLM Application Development](https://www.deeplearning.ai/short-courses/langchain-for-llm-application-development/)
 
-### Libraries
+## Libraries
 
 * [Hugging Face: Transformers](https://github.com/huggingface/transformers)
 * [xFormers](https://github.com/facebookresearch/xformers)
@@ -297,12 +297,12 @@ Optimization Theory for Computer Science and Machine Learning](https://www.cis.u
 * [Trax](https://github.com/google/trax)
 * [AlpacaFarm](https://github.com/tatsu-lab/alpaca_farm)
 
-### Tools
+## Tools
 
 * [LangFlow](https://github.com/logspace-ai/langflow)
 * [EasyLM](https://github.com/young-geng/EasyLM/tree/main)
 
-### Projects
+## Projects
 
 * [llama.cpp](https://github.com/ggerganov/llama.cpp)
 * [alpaca.cpp](https://github.com/antimatter15/alpaca.cpp)
@@ -314,11 +314,11 @@ Optimization Theory for Computer Science and Machine Learning](https://www.cis.u
 * [FinGPT](https://github.com/AI4Finance-Foundation/FinGPT)
 * [LaWGPT](https://github.com/pengxiao-song/LaWGPT)
 
-### Resources
+## Resources
 
 * [Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
 
-## Papers
+# Papers
 
 * [Papers With Code](https://paperswithcode.com)
 * [深度学习论文精读](https://github.com/mli/paper-reading)
@@ -334,7 +334,7 @@ Optimization Theory for Computer Science and Machine Learning](https://www.cis.u
 * [中国知网](https://www.cnki.net/)
 * [Redalyc](https://www.redalyc.org/)
 
-### To Be Read
+## To Be Read
 
 * [What Do We Understand About Convolutional Networks?](https://arxiv.org/abs/1803.08834)
 * [Distilling the Knowledge in a Neural Network](https://arxiv.org/abs/1503.02531)
@@ -346,19 +346,19 @@ Optimization Theory for Computer Science and Machine Learning](https://www.cis.u
 * [Depth-Aware Video Frame Interpolation](https://github.com/baowenbo/DAIN)
 * [Pseudo-LiDAR](https://github.com/mileyan/pseudo_lidar)
 
-## Conference
+# Conference
 
 * Conference on Neural Information Processing Systems (NeurIPS)
 * Computer Vision and Pattern Recognition Conference (CVPR)
 
-## Datasets
+# Datasets
 
 * [Kaggle: Datasets](https://www.kaggle.com/datasets)
 * [Papers With Code: Datasets](https://paperswithcode.com/datasets)
 * [Google Dataset Search](https://datasetsearch.research.google.com/)
 * [Hugging Face: Datasets](https://huggingface.co/datasets)
 
-## Open Source Models
+# Open Source Models
 
 * [Kaggle: Models](https://www.kaggle.com/models)
 * [Hugging Face: Models](https://huggingface.co/models)
