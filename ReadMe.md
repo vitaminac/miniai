@@ -72,6 +72,7 @@ Optimization Theory for Computer Science and Machine Learning](https://www.cis.u
 ## Courses
 
 - [x] [Coursera: AI for Everyone](https://www.coursera.org/learn/ai-for-everyone)
+- [ ] [Coursera: Generative AI for Everyone](https://www.coursera.org/learn/generative-ai-for-everyone)
 - [ ] [UC Berkeley CS188: Introduction to Artificial Intelligence](https://inst.eecs.berkeley.edu/~cs188)
 
 ## Books
@@ -299,6 +300,9 @@ Optimization Theory for Computer Science and Machine Learning](https://www.cis.u
 
 ## Tools
 
+* [OpenAI ChatGPT](https://openai.com/chatgpt)
+* [Google Bard](https://bard.google.com/chat)
+* [AWS Amazon Q](https://aws.amazon.com/q/)
 * [LangFlow](https://github.com/logspace-ai/langflow)
 * [EasyLM](https://github.com/young-geng/EasyLM/tree/main)
 
