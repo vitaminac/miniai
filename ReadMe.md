@@ -169,6 +169,7 @@ Optimization Theory for Computer Science and Machine Learning](https://www.cis.u
 
 ## Tools
 
+* [NVIDIA TensorRT](https://github.com/NVIDIA/TensorRT)
 * [PlotNeuralNet](https://github.com/HarisIqbal88/PlotNeuralNet)
 
 ## Libraries
@@ -303,8 +304,10 @@ Optimization Theory for Computer Science and Machine Learning](https://www.cis.u
 * [OpenAI ChatGPT](https://openai.com/chatgpt)
 * [Google Bard](https://bard.google.com/chat)
 * [AWS Amazon Q](https://aws.amazon.com/q/)
+* [NVIDIA TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM)
 * [LangFlow](https://github.com/logspace-ai/langflow)
-* [EasyLM](https://github.com/young-geng/EasyLM/tree/main)
+* [OpenLLM](https://github.com/bentoml/OpenLLM)
+* [EasyLM](https://github.com/young-geng/EasyLM)
 
 ## Projects
 
@@ -315,6 +318,7 @@ Optimization Theory for Computer Science and Machine Learning](https://www.cis.u
 * [miniGPT](https://github.com/karpathy/minGPT)
 * [OpenLLaMA](https://github.com/openlm-research/open_llama)
 * [Lit-LLaMA](https://github.com/Lightning-AI/lit-llama)
+* [ExLLaMA](https://github.com/turboderp/exllama)
 * [FinGPT](https://github.com/AI4Finance-Foundation/FinGPT)
 * [LaWGPT](https://github.com/pengxiao-song/LaWGPT)
 
