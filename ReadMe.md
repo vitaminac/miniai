@@ -90,7 +90,7 @@ Optimization Theory for Computer Science and Machine Learning](https://www.cis.u
 
 - [x] [Kaggle: Intro to Machine Learning](https://www.kaggle.com/learn/intro-to-machine-learning)
 - [x] [Kaggle: Intermediate Machine Learning](https://www.kaggle.com/learn/intermediate-machine-learning)
-- [ ] [Kaggle: Feature Engineering](https://www.kaggle.com/learn/feature-engineering)
+- [x] [Kaggle: Feature Engineering](https://www.kaggle.com/learn/feature-engineering)
 - [ ] [Machine Learning Yearning](https://www.deeplearning.ai/machine-learning-yearning/)
 
 ## Courses
