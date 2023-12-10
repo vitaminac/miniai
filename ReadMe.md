@@ -1,4 +1,4 @@
-All experiments, implementations and tests are performed in an environment that is relatively easy to reproduce. In order to have a consistent result on different machines, we use **conda** and its configuration file `environment.yml` to create and consolidate the Python runtime environment with necessary libraries. The `environment.yml` file freezes the Python version information and the versions of libraries we use. To reproduce the environment we use, just run `conda env create --name miniai --file environment.yml`. To update the existing environment run `conda env update --name miniai --file environment.yml`. You have to activate the environment with the command `conda activate miniai` every time you open a new terminal, and then launch `jupyter notebook`. The same code can be run in the **Google Colab** environment without modification.
+All experiments, implementations and tests are performed in an environment that is relatively easy to reproduce. In order to have a consistent result on different machines, we use **conda** and its configuration file `environment.yml` to create and consolidate the Python runtime environment with necessary libraries. The `environment.yml` file freezes the Python version information and the versions of libraries we use. To reproduce the environment we use, just run `conda env create --name miniai --file environment.yml`. To update the existing environment run `conda env update --name miniai --file environment.yml --prune`. You have to activate the environment with the command `conda activate miniai` every time you open a new terminal, and then launch `jupyter notebook`. The same code can be run in the **Google Colab** environment without modification.
 
 We use PyTorch as the default library for data fetching, implementation of the optimization algorithms, neural network model creation, and their training and application. We also use libraries such as **NumPy** to illustrate some of the internal implementation details of **PyTorch**.
 
@@ -177,6 +177,7 @@ Optimization Theory for Computer Science and Machine Learning](https://www.cis.u
 * [PyTorch](https://pytorch.org/)
 * [Keras](https://keras.io)
 * [TensorFlow](https://github.com/tensorflow/tensorflow)
+* [TensorBoard](https://github.com/tensorflow/tensorboard)
 * [Caffe](https://github.com/BVLC/caffe)
 * [Caffe2](https://github.com/pytorch/pytorch/tree/main/caffe2)
 * [tinygrad](https://github.com/geohot/tinygrad)

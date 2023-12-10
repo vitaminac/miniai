@@ -2,7 +2,6 @@ import random
 import numpy as np
 import matplotlib.pyplot as plt
 import torch
-from torch.utils.tensorboard import SummaryWriter
 
 
 def ensure_reproducity():
@@ -88,16 +87,4 @@ def collect_losses(it, f, parameters):
     losses = []
     for epoch in it:
         losses.append(f(parameters).item())
-    return losses
-
-
-def collect_losses_and_log_to_tensorboard(it, cost_function, parameters):
-    writer = SummaryWriter()
-    losses = []
-    for epoch in it:
-        loss = cost_function(parameters)
-        losses.append(loss)
-        writer.add_scalar("Loss/train", loss, epoch)
-    writer.flush()
-    writer.close()
     return losses

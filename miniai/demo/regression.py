@@ -49,8 +49,9 @@ def show_demo():
     parameters = init_params()
     model = CostFunction(x, y)
     gd = GradientDescent(model.grad, parameters, 1)
-    losses = utils.collect_losses_and_log_to_tensorboard(
-        gd.train(), model, parameters)
+    losses = []
+    for epoch in gd.train():
+        losses.append(model(parameters).item())
     plt.figure(figsize=(10, 5))
     plt.plot(losses)
     plt.xlabel("iteration")
