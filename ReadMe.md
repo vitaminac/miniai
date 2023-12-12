@@ -345,13 +345,11 @@ Optimization Theory for Computer Science and Machine Learning](https://www.cis.u
 
 ## To Be Read
 
-* [What Do We Understand About Convolutional Networks?](https://arxiv.org/abs/1803.08834)
 * [Distilling the Knowledge in a Neural Network](https://arxiv.org/abs/1503.02531)
 * [Video-to-Video Synthesis](https://paperswithcode.com/paper/video-to-video-synthesis)
 * [Learning Internal Representations by Error Propagation](http://web.stanford.edu/class/psych209a/ReadingsByDate/02_06/PDPVolIChapter8.pdf)
 * [Neural Style](https://paperswithcode.com/paper/a-neural-algorithm-of-artistic-style)
 * [StoryGAN](https://paperswithcode.com/paper/storygan-a-sequential-conditional-gan-for)
-* [Depth-Aware Video Frame Interpolation](https://github.com/baowenbo/DAIN)
 
 # Conference
 
