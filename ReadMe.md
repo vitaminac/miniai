@@ -313,6 +313,7 @@ Optimization Theory for Computer Science and Machine Learning](https://www.cis.u
 ## Projects
 
 * [llama.cpp](https://github.com/ggerganov/llama.cpp)
+* [llama2.c](https://github.com/karpathy/llama2.c)
 * [alpaca.cpp](https://github.com/antimatter15/alpaca.cpp)
 * [ggml](https://github.com/ggerganov/ggml)
 * [nanoGPT](https://github.com/karpathy/nanoGPT)
