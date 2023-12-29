@@ -189,7 +189,7 @@ Optimization Theory for Computer Science and Machine Learning](https://www.cis.u
 
 ## Courses
 
-- [ ] [Stanford CS231n: Convolutional Neural Networks for Visual Recognition](https://cs231n.github.io/)
+- [ ] [Stanford CS231n: Deep Learning for Computer Vision](https://cs231n.github.io/)
 
 ## Books
 
