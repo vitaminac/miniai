@@ -284,6 +284,7 @@ Optimization Theory for Computer Science and Machine Learning](https://www.cis.u
 
 ## Courses
 
+- [ ] [Stanford CS25: Transformers](https://web.stanford.edu/class/cs25/)
 - [x] [DeepLearning.AI: ChatGPT Prompt Engineering for Developers](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/)
 - [ ] [DeepLearning.AI: Building Systems with the ChatGPT API](https://www.deeplearning.ai/short-courses/building-systems-with-chatgpt/)
 - [ ] [DeepLearning.AI: LangChain for LLM Application Development](https://www.deeplearning.ai/short-courses/langchain-for-llm-application-development/)
