@@ -62,6 +62,7 @@ Optimization Theory for Computer Science and Machine Learning](https://www.cis.u
 - [ ] [统计学习方法](https://book.douban.com/subject/33437381/)
 - [ ] [The Nature of Statistical Learning Theory](https://www.springer.com/gp/book/9780387987804)
 - [ ] [Statistical Learning Theory](https://www.wiley.com/en-us/Statistical+Learning+Theory-p-9780471030034)
+- [ ] [Python for Data Analysis](https://wesmckinney.com/book/)
 
 ## Tools
 
@@ -74,6 +75,7 @@ Optimization Theory for Computer Science and Machine Learning](https://www.cis.u
 - [x] [Coursera: AI for Everyone](https://www.coursera.org/learn/ai-for-everyone)
 - [ ] [Coursera: Generative AI for Everyone](https://www.coursera.org/learn/generative-ai-for-everyone)
 - [ ] [UC Berkeley CS188: Introduction to Artificial Intelligence](https://inst.eecs.berkeley.edu/~cs188)
+- [ ] [Stanford CS221: Artificial Intelligence: Principles and Techniques](https://stanford-cs221.github.io/)
 
 ## Books
 
@@ -98,6 +100,7 @@ Optimization Theory for Computer Science and Machine Learning](https://www.cis.u
 - [ ] [Coursera: Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)
 - [ ] [Coursera: Machine Learning Engineering for Production (MLOps) Specialization](https://www.coursera.org/specializations/machine-learning-engineering-for-production-mlops)
 - [ ] [Stanford CS229: Machine Learning](https://cs229.stanford.edu/syllabus-fall2022.html)
+- [ ] [Stanford CS228: Probabilistic Graphical Models](https://cs.stanford.edu/~ermon/cs228)
 - [ ] [NTU by Hung-Yi Lee: Machine Learning](https://speech.ee.ntu.edu.tw/~hylee/ml/2021-spring.php)
 
 ## Books
