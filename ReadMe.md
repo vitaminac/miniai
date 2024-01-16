@@ -165,7 +165,7 @@ Optimization Theory for Computer Science and Machine Learning](https://www.cis.u
 
 ## Books
 
-- [ ] Deep Learning with Python
+- [ ] [Deep Learning with Python](https://www.manning.com/books/deep-learning-with-python-second-edition)
 - [ ] [Deep Learning](https://www.deeplearningbook.org/)
 - [ ] [Dive into Deep Learning](https://d2l.ai/)
 - [ ] [Understanding Deep Learning](https://udlbook.github.io/udlbook/)
