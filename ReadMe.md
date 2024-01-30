@@ -10,10 +10,10 @@ We use PyTorch as the default library for data fetching, implementation of the o
 
 ## Books
 
-* [Mathematics for Machine Learning](https://mml-book.github.io/)
-* [Algebra, Topology, Differential Calculus, and
+- [ ] [Mathematics for Machine Learning](https://mml-book.github.io/)
+- [ ] [Algebra, Topology, Differential Calculus, and
 Optimization Theory for Computer Science and Machine Learning](https://www.cis.upenn.edu/~jean/gbooks/geomath.html)
-* [Linear Algebra and Optimization with Applications to Machine Learning](https://www.cis.upenn.edu/~jean/gbooks/linalg.html)
+- [ ] [Linear Algebra and Optimization with Applications to Machine Learning](https://www.cis.upenn.edu/~jean/gbooks/linalg.html)
 
 ## Tools
 
@@ -33,10 +33,10 @@ Optimization Theory for Computer Science and Machine Learning](https://www.cis.u
 
 ## Books
 
-* [Numerical Recipes](http://numerical.recipes/)
-* [Numerical Optimization](https://link.springer.com/book/10.1007/978-0-387-40065-5)
-* [Convex Optimization](https://web.stanford.edu/~boyd/cvxbook/)
-* Numerical Analysis
+- [ ] [Numerical Recipes](http://numerical.recipes/)
+- [ ] [Numerical Optimization](https://link.springer.com/book/10.1007/978-0-387-40065-5)
+- [ ] [Convex Optimization](https://web.stanford.edu/~boyd/cvxbook/)
+- [ ] Numerical Analysis
 
 ## Tools
 
@@ -79,7 +79,7 @@ Optimization Theory for Computer Science and Machine Learning](https://www.cis.u
 
 ## Books
 
-* [Artificial Intelligence: A Modern Approach](http://aima.cs.berkeley.edu/)
+- [ ] [Artificial Intelligence: A Modern Approach](http://aima.cs.berkeley.edu/)
 
 ## Methods
 
@@ -107,7 +107,7 @@ Optimization Theory for Computer Science and Machine Learning](https://www.cis.u
 
 - [ ] Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems
 - [ ] [Pattern Recognition and Machine Learning](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/05/prml-errata-3rd-20110921.pdf)
-- [ ] [Machine Learning: A Probabilistic Perspective](https://probml.github.io/pml-book/)
+- [ ] [Probabilistic Machine Learning Book Series](https://probml.github.io/pml-book/)
 - [ ] [机器学习](https://book.douban.com/subject/26708119/)
 - [ ] [南瓜书PumpkinBook](https://datawhalechina.github.io/pumpkin-book)
 - [ ] [Probabilistic Graphical Models: Principles and Techniques](https://mitpress.mit.edu/books/probabilistic-graphical-models)
@@ -169,6 +169,7 @@ Optimization Theory for Computer Science and Machine Learning](https://www.cis.u
 - [ ] [Deep Learning](https://www.deeplearningbook.org/)
 - [ ] [Dive into Deep Learning](https://d2l.ai/)
 - [ ] [Understanding Deep Learning](https://udlbook.github.io/udlbook/)
+- [ ] [Deep Learning: Foundations and Concepts](https://www.bishopbook.com/)
 
 ## Tools
 
