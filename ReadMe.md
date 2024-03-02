@@ -308,8 +308,10 @@ Optimization Theory for Computer Science and Machine Learning](https://www.cis.u
 ## Tools
 
 * [OpenAI ChatGPT](https://openai.com/chatgpt)
+* [Microsoft Copilot](https://copilot.microsoft.com/)
 * [Google Bard](https://bard.google.com/chat)
 * [AWS Amazon Q](https://aws.amazon.com/q/)
+* [LM Studio](https://lmstudio.ai/)
 * [NVIDIA TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM)
 * [LangFlow](https://github.com/logspace-ai/langflow)
 * [OpenLLM](https://github.com/bentoml/OpenLLM)
