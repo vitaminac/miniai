@@ -307,6 +307,8 @@ Optimization Theory for Computer Science and Machine Learning](https://www.cis.u
 
 ## Tools
 
+* [Ollama](https://github.com/ollama/ollama)
+* [Ollama WebUI](https://github.com/open-webui/open-webui)
 * [OpenAI ChatGPT](https://openai.com/chatgpt)
 * [Microsoft Copilot](https://copilot.microsoft.com/)
 * [Google Bard](https://bard.google.com/chat)
@@ -322,6 +324,7 @@ Optimization Theory for Computer Science and Machine Learning](https://www.cis.u
 * [llama.cpp](https://github.com/ggerganov/llama.cpp)
 * [llama2.c](https://github.com/karpathy/llama2.c)
 * [alpaca.cpp](https://github.com/antimatter15/alpaca.cpp)
+* [TinyLlama](https://github.com/jzhang38/TinyLlama)
 * [ggml](https://github.com/ggerganov/ggml)
 * [nanoGPT](https://github.com/karpathy/nanoGPT)
 * [miniGPT](https://github.com/karpathy/minGPT)
