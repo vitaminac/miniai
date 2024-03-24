@@ -70,10 +70,13 @@ Optimization Theory for Computer Science and Machine Learning](https://www.cis.u
 
 # Artificial Intelligence
 
+## Tutorials
+
+- [ ] [Microsoft: Artificial Intelligence for Beginners - A Curriculum](https://microsoft.github.io/AI-For-Beginners/)
+
 ## Courses
 
 - [x] [Coursera: AI for Everyone](https://www.coursera.org/learn/ai-for-everyone)
-- [ ] [Coursera: Generative AI for Everyone](https://www.coursera.org/learn/generative-ai-for-everyone)
 - [ ] [UC Berkeley CS188: Introduction to Artificial Intelligence](https://inst.eecs.berkeley.edu/~cs188)
 - [ ] [Stanford CS221: Artificial Intelligence: Principles and Techniques](https://stanford-cs221.github.io/)
 
@@ -286,8 +289,13 @@ Optimization Theory for Computer Science and Machine Learning](https://www.cis.u
 
 # Large Language Models
 
+## Tutorials
+
+- [ ] [Microsoft: Generative AI for Beginners - A Course](https://microsoft.github.io/generative-ai-for-beginners)
+
 ## Courses
 
+- [ ] [Coursera: Generative AI for Everyone](https://www.coursera.org/learn/generative-ai-for-everyone)
 - [ ] [Stanford CS25: Transformers](https://web.stanford.edu/class/cs25/)
 - [x] [DeepLearning.AI: ChatGPT Prompt Engineering for Developers](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/)
 - [ ] [DeepLearning.AI: Building Systems with the ChatGPT API](https://www.deeplearning.ai/short-courses/building-systems-with-chatgpt/)
@@ -309,9 +317,6 @@ Optimization Theory for Computer Science and Machine Learning](https://www.cis.u
 
 * [Ollama](https://github.com/ollama/ollama)
 * [Ollama WebUI](https://github.com/open-webui/open-webui)
-* [OpenAI ChatGPT](https://openai.com/chatgpt)
-* [Microsoft Copilot](https://copilot.microsoft.com/)
-* [Google Bard](https://bard.google.com/chat)
 * [AWS Amazon Q](https://aws.amazon.com/q/)
 * [LM Studio](https://lmstudio.ai/)
 * [NVIDIA TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM)
