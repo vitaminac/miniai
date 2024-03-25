@@ -187,7 +187,8 @@ Optimization Theory for Computer Science and Machine Learning](https://www.cis.u
 * [TensorBoard](https://github.com/tensorflow/tensorboard)
 * [Caffe](https://github.com/BVLC/caffe)
 * [Caffe2](https://github.com/pytorch/pytorch/tree/main/caffe2)
-* [tinygrad](https://github.com/geohot/tinygrad)
+* [tinygrad](https://github.com/tinygrad/tinygrad)
+* [micrograd](https://github.com/karpathy/micrograd)
 * [Apache MXNet](https://github.com/apache/incubator-mxnet)
 * [Deeplearning4j](https://github.com/eclipse/deeplearning4j)
 * [CNTK](https://github.com/microsoft/CNTK)
@@ -317,10 +318,13 @@ Optimization Theory for Computer Science and Machine Learning](https://www.cis.u
 
 * [Ollama](https://github.com/ollama/ollama)
 * [Ollama WebUI](https://github.com/open-webui/open-webui)
+* [PrivateGPT](https://github.com/zylon-ai/private-gpt)
 * [AWS Amazon Q](https://aws.amazon.com/q/)
 * [LM Studio](https://lmstudio.ai/)
 * [NVIDIA TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM)
 * [LangFlow](https://github.com/logspace-ai/langflow)
+* [LangGraph](https://github.com/langchain-ai/langgraph)
+* [ChainForge](https://github.com/ianarawjo/ChainForge)
 * [OpenLLM](https://github.com/bentoml/OpenLLM)
 * [EasyLM](https://github.com/young-geng/EasyLM)
 
